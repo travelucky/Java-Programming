@@ -3,8 +3,8 @@ package com.first.learn.CLASS.WEEK7;
 public class Lab4Task9 {
     public static void main(String[] args) {
         System.out.println("The maximum of 3 and 4 is " + max(3, 4));
-        System.out.println("The maximum of 3.0 and 5.4 is " + max(3.0D, 5.4D));
-        System.out.println("The maximum of 3.0,5.4,and 10.14 is " + max(3.0D, 5.4D, 10.14D));
+        System.out.println("The maximum of 3.0 and 5.4 is " + max(3.0, 5.4));
+        System.out.println("The maximum of 3.0,5.4,and 10.14 is " + max(3.0, 5.4, 10.14));
     }
 
     public static int max(int num1, int num2) {
